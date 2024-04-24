@@ -1,0 +1,277 @@
+.about1
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+align-items: center;
+padding-top: 50px;
+}
+.boot
+{
+font-family:"Rouge Script",cursive;
+color: #FF9F0D;
+font-size: 14px;
+}
+.boot2
+{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 30px;
+color:#333333 ;
+width: 500px;
+}
+.boot3
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #4F4F4F;
+width: 500px;
+}
+.btn33
+{
+color: white;
+background-color: #FF9F0D;
+padding: 10px 40px 10px 40px;
+border-color: #FF9F0D;
+border-width: 2px;
+border-style: solid;
+border-radius: 20px;
+text-align: center;
+width: 150px;
+}
+.mano
+{
+   color: #4F4F4F;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 22px;
+   font-weight: bold; 
+}
+.about2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.putcenter
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 15px;
+padding-top: 40px;
+}
+.whych
+{
+font-family: Arial, Helvetica, sans-serif;
+color: #4F4F4F;
+font-weight: bold;
+font-size: 30px;
+}
+.smalltitle
+{
+font-size: 14px;
+width: 500px;
+text-align: center;
+}
+.rectimg
+{
+width: 900px;
+}
+.threeone
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.thetitl
+{
+width: 350px;
+font-size: 16px;
+text-align: center;
+}
+.bsc
+{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #4F4F4F;
+font-size: 28px;
+}
+.threeinone
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;
+padding-top: 60px;
+}
+.profilepicc
+{
+position: absolute;
+top: 1550px;
+left: 44%;
+}
+.quotess
+{
+position: absolute;
+top: 1700px;
+left: 47%;
+}
+.test33
+{
+position: absolute;
+top: 1800px;
+left: 27%;
+width: 590px;
+color: black;
+text-align: center;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+.starss
+{
+position: absolute;
+top: 1940px;
+left: 44%;
+}
+.starss2
+{
+position: absolute;
+top: 1940px;
+left: 46%;
+}
+.starss3
+{
+position: absolute;
+top: 1940px;
+left: 48%;
+}
+.starss4
+{
+position: absolute;
+top: 1940px;
+left: 50%;
+}
+.starss5
+{
+position: absolute;
+top: 1940px;
+left: 52%;
+}
+.alaminn
+{
+position: absolute;
+top: 1950px;
+left: 41%;
+color: black;
+font-weight: bold;
+font-size: 33px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.specc
+{
+color: grey;
+font-size: 22px;
+font-weight: lighter;
+position: absolute;
+top: 2000px;
+left: 44%;
+}
+.testimon
+{
+font-family:"Rouge Script",cursive;
+color: #FF9F0D;
+font-size: 24px;
+padding-top: 60px;
+padding-left: 100px;
+}
+@media only screen and (max-width: 767px) {
+    .boot
+    {
+    font-family:"Rouge Script",cursive;
+    color: #FF9F0D;
+    font-size: 10px;
+    }
+    .boot2
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:#333333 ;
+    width: 300px;
+    }
+    .boot3
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4F4F4F;
+    width: 300px;
+    }
+    .about2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 70px;
+}
+.rectimg
+{
+width: 500px;
+}
+.threeinone
+{
+    display: none;
+}
+.profilepicc
+{
+position: absolute;
+width: 100px;
+top: 850px;
+left: 60%;
+}
+.quotess
+{
+position: absolute;
+top: 960px;
+left: 65%;
+}
+.test33
+{
+position: absolute;
+top: 1000px;
+left: 26%;
+width: 390px;
+color: black;
+text-align: center;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+}
+.starss
+{
+display: none;
+}
+.starss2
+{
+display: none;
+}
+.starss3
+{
+display: none;
+}
+.starss4
+{
+display: none;
+}
+.starss5
+{
+display: none;
+}
+.alaminn
+{
+display: none;
+}
+}

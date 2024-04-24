@@ -1,0 +1,292 @@
+.inp
+{
+display: flex;
+flex-direction: row;
+gap:0px
+}
+.support
+{
+display: flex; 
+flex-direction: row;
+justify-content: center;
+gap: 160px;
+margin-top: 200px;
+}
+.still
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+}
+.st
+{
+    color: #FF9F0D;
+}
+.email
+{
+width: 250px;
+color: white;
+background-color: #FF9F0D;
+border: none;
+outline: none;
+}
+.subscribe
+{
+color: #FF9F0D ;
+background-color:white ;
+width: 100px;
+border: none;
+outline: none;
+padding: 10px;
+}
+.dont
+{
+color: white;
+margin-top: 15px;
+font-size: 14px;
+margin-left: 320px;
+}
+.line
+{
+color: #FF9F0D;
+width:800px ;
+height: 1px;
+margin-top: 60px;
+}
+.firstcol
+{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-left: 50px;
+width: 400px;
+}
+.setting
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+.defin
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   width: 180px;
+}
+.clients
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 300px;
+}
+.opening
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+
+}
+.mon
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+
+}
+.closed
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+
+}
+.small
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: white;
+background-color: black;
+margin-top:20px ;
+margin-bottom: 20px ;
+}
+.sceondcol
+{
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+.finalcol
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.pichis
+{
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   align-items: center;
+}
+.settings
+{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.endo
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 600px ;
+align-items: center;
+background-color: #FF9F0D;
+height: 80px;
+position: relative;
+}
+.copyright
+{
+    color: white;
+}
+.iconss
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+}
+.sms
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;
+position: absolute;
+right: 40px;
+top: 30px;
+}
+.NavLink
+{
+    text-decoration: none;
+}
+.small:hover
+{
+    color: #FF9F0D;
+}
+@media only screen and (max-width: 767px) {
+    .still
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        width: 200px;
+    }
+    .st
+    {
+        color: #FF9F0D;
+    }
+    .email
+{
+width: 200px;
+color: white;
+background-color: #FF9F0D;
+border: none;
+outline: none;
+height: 50px;
+}
+.subscribe
+{
+color: #FF9F0D ;
+background-color:white ;
+width: 60px;
+border: none;
+outline: none;
+padding:  15px 80px 10px 20px ;
+text-align: center;
+}
+.support
+{
+display: flex; 
+flex-direction: column;
+align-items: start;
+gap: 40px;
+margin-top: 200px;
+}
+.defin
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: white;
+   width: 100px;
+}
+.clients
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    width: 100px;
+}
+.watch
+{
+    width: 60px;
+}
+.settings
+{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 5px;
+  margin-top: 100px;
+}
+.firstcol
+{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-left: 10px;
+width: 80px;
+}
+.setting
+{
+    display: none;
+}
+.finalcol
+{
+    display: none;
+}
+.iconss
+{
+    display: none;
+}
+.sms
+{
+    display: none;
+}
+.copyright{
+    color: white;
+}
+.endo
+{
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+background-color: #FF9F0D;
+height: 80px;
+}
+.dont
+{
+color: white;
+margin-top: 15px;
+font-size: 14px;
+margin-left: 10px;
+}
+}

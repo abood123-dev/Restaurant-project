@@ -1,0 +1,28 @@
+.Ch1
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin-top: 40px;
+}
+.cc1
+{
+width: 200px;
+}
+.C1
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
+gap: 10px;
+}
+.CH
+{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-bottom: 50px;
+}

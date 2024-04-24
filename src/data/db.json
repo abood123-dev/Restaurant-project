@@ -1,0 +1,204 @@
+{
+    "blogs": [
+    {
+      "id":1,
+      "category":"burger",
+      "desc":"cheese burger",
+      "img":"https://th.bing.com/th?id=OIP.H07SGPpx-swRy0WfmnDIdwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"33$"     
+    },
+    {
+      "id":2,
+      "category":"burger", 
+      "desc":"Big cheese burger",
+      "img":"https://th.bing.com/th?id=OIP.Rdy3GcwhIqv_7I7LaxMRJQHaG6&w=258&h=241&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"36$"  
+    },
+    {
+      "id":3,
+      "category":"sandwich", 
+      "desc":" cheese sandwich",
+      "img":"https://th.bing.com/th/id/OIP.tNhfEUOjMnhGSotBXOe8AQHaHa?w=282&h=212&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"35$"  
+    },
+    {
+      "id":4,
+      "category":"sandwich",
+      "desc":"Deli sandwich",
+      "img":"https://th.bing.com/th/id/OIP.eCbq0yLXKOODxwjLveLHLQHaDl?w=322&h=169&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"40$"     
+    },
+    {
+      "id":5,
+      "category":"sandwich",
+      "desc":"pan toasted ham", 
+      "img":"https://th.bing.com/th/id/OIP.4Y9mrBZbqh4lv6DAPCEmkgHaE8?w=296&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"30$"  
+    },
+    {
+      "id":6,
+      "category":"sandwich",
+      "desc":"sub sandwich", 
+      "img":"https://th.bing.com/th/id/OIP.NJL83sXgXZjNGiTusnXBOwHaE8?w=305&h=203&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"22$"  
+    },
+    {
+      "id":7,
+      "category":"dessert",
+      "desc":"cherry cream desert",
+      "img":"https://th.bing.com/th/id/OIP.5lwQhdSbRE7KLPYm-Uv_mAHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"29$"     
+    },
+    {
+      "id":8,
+      "category":"dessert",
+      "desc":"italian dessert", 
+      "img":"https://th.bing.com/th/id/OIP.tJ4os5b9L7UGU5AxOWRjLgHaE8?w=294&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"43$"  
+    },
+    {
+      "id":9,
+      "category":"dessert",
+      "desc":"sweet cake", 
+      "img":"https://th.bing.com/th/id/OIP.UtRZDQuFXMtS-mDTSqrdKQHaI9?w=195&h=236&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"33$"  
+    },
+    {
+      "id":10,
+      "category":"drink",
+      "desc":"orange juice",
+      "img":"https://th.bing.com/th?id=OIP.7_TBBQTVdiF93CUKVRQWRAHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"30$"     
+    },
+    {
+      "id":11,
+      "category":"drink",
+      "desc":"cold cola", 
+      "img":"https://th.bing.com/th?id=OIP.iGwIldjKja5_xH99Z0qp0wHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"45$"  
+    },
+    {
+      "id":12,
+      "category":"pizza",
+      "desc":"pepparoni pizza", 
+      "img":"https://th.bing.com/th?id=OIP._Tuj6ElUF8jhhcSg41_V_QHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"48$"  
+    },
+    {
+      "id":13,
+      "category":"soup",
+      "desc":"chicken soup",
+      "img":"https://th.bing.com/th/id/OIP.YBPQgHYo0blhl-Y_cs37qQHaE7?rs=1&pid=ImgDetMain",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"43$"     
+    },
+    {
+      "id":14,
+      "category":"drink",
+      "desc":"french tomato juice", 
+      "img":"https://th.bing.com/th/id/OIP.oRncl8HKW8CsvL6o_6zCqAHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"22$"  
+    },
+    {
+      "id":15,
+      "category":"drink", 
+      "desc":"fresh lemon juice",
+      "img":"data:image/jpeg;base64,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",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"53$"  
+    },
+    {
+      "id":16,
+      "category":"snack",
+      "desc":"yummy snacks",
+      "img":"https://th.bing.com/th/id/OIP.e8aK-NaS4qyZ9px2A6kLfwHaE8?w=249&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"44$"     
+    },
+    {
+      "id":17,
+      "category":"snack",
+      "desc":"children snack",
+      "img":"https://th.bing.com/th/id/OIP.4j7jeUgcXcQpYpSE4JN35wHaJR?w=132&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"36$"  
+    },
+    {
+      "id":18,
+      "category":"snack",
+      "desc":"chips snack",
+      "img":"https://th.bing.com/th/id/OIP.0nfjoYNykF9bvQxe07oPDAHaE8?w=252&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"32$"  
+    },
+    {
+      "id":19,
+      "category":"pizza",
+      "desc":"vegetrian pizza",
+      "img":"https://th.bing.com/th?id=OIP.8UeIFPMYwIErE1ShRYB9QAHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"35$"     
+    },
+    {
+      "id":20,
+      "category":"breakfast", 
+      "desc":"english breakfast",
+      "img":"https://th.bing.com/th/id/OIP.8sVjYEmu7eoiIVZWnoKofQHaFS?rs=1&pid=ImgDetMain",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"23$"  
+    },
+    {
+      "id":21,
+      "category":"breakfast",
+      "desc":"breakfast", 
+      "img":"https://th.bing.com/th/id/OIP.bUKoH4DuNcHD3PhQHTNvngHaE8?w=260&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"53$"  
+    },
+    {
+      "id":22,
+      "category":"pizza",
+      "desc":"italian pizza",
+      "img":"https://th.bing.com/th/id/OIP.naEpuF9k7LB0PYghldofMgHaE7?w=260&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"38$"  
+    },
+    {
+      "id":23,
+      "category":"dinner",
+      "desc":"turkey dinner",
+      "img":"https://th.bing.com/th?id=OIP.8UeIFPMYwIErE1ShRYB9QAHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"26$"     
+    },
+    {
+      "id":24,
+      "category":"dinner", 
+      "desc":"chicken dinner",
+      "img":"https://th.bing.com/th/id/OIP.ibsO5j146-P7EnqSNUiJMgHaI4?w=167&h=200&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"39$"  
+    },
+    {
+      "id":25,
+      "category":"sandwich",
+      "desc":"toasted sandwich", 
+      "img":"https://th.bing.com/th/id/OIP.Io0SfSbVLvs0_yoaVpP8XwAAAA?w=250&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "desc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      "price":"22$"  
+    }
+  ]  
+}

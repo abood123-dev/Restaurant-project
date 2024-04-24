@@ -1,0 +1,182 @@
+.firstcatt
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px;
+align-items: start;
+padding-top: 50px;
+background-color: white;
+}
+.Menu1
+{
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: start;
+}
+.starter
+{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 30px;
+color: #333333;
+margin-bottom: 20px;
+}
+.alder
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+.tost
+{
+    color: #4F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.doll
+{
+   color: #FF9F0D;
+}
+.fone
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 150px;
+}
+.fonee
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 215px;
+}
+.foneee
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 160px;
+}
+.pc
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+padding-top: 40px;
+background-color: white;
+}
+.pandc
+{
+font-size:14px ;
+}
+.we
+{
+font-family: Arial, Helvetica, sans-serif;
+color: #333333;
+font-weight: bold;
+font-size: 30px;
+}
+.clientss
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+padding-top: 20px;
+padding-bottom: 60px;
+background-color: white;
+}
+.Men1
+{
+    width: 360px;
+}
+
+
+@media only screen and (max-width: 767px) {
+.allmm
+{
+    width: 200px;
+}
+.Men1
+{
+    width: 150px;
+}
+.Menu1
+{
+display: flex;
+flex-direction: column;
+gap: 5px;
+align-items: start;
+}
+.starter
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #333333;
+margin-bottom: 20px;
+}
+.alder
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
+.tost
+{
+    color: #4F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.doll
+{
+   color: #FF9F0D;
+}
+.fone
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 25px;
+}
+.fonee
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 25px;
+}
+.foneee
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 25px;
+}
+.pc
+{
+    display: none;
+}
+.clientss
+{
+    display: none;
+}
+.firstcatt
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 25px;
+align-items: start;
+padding-top: 5px;
+background-color: white;
+}
+}

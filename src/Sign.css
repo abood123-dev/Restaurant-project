@@ -1,0 +1,62 @@
+.trr
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF7F2;
+    height: 700px;
+}
+.smalltrr
+{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    width: 300px;
+    height: 390px;
+    object-fit: contain;
+}
+.flextrr
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intrr
+{
+width: 220px;
+height: 22px;
+border: 1px solid #ccc;
+}
+.signtrr
+{
+    width: 200px;
+    text-align: center;
+    background-color: #FF9F0D;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #FF9F0D;
+    border-radius: 20px;
+    transition: ease-out 0.3s;
+}
+.remember
+{
+    display: flex;
+    flex-direction: row;
+}
+.signuptr
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 24px;
+}
+.signtrr:hover
+{
+    background-color: white;
+    color: #FF9F0D;
+}

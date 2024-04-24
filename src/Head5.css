@@ -1,0 +1,74 @@
+.pick
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: #FF9F0D;
+font-size: 26px;
+margin-top: 250px;
+}
+.from
+{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 33px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 10px;
+}
+.fr
+{
+color: #FF9F0D;
+}
+.kinds
+{
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 100px;
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+transition: ease-out 0.3s;
+}
+.kind
+{
+    cursor: pointer;
+    position: relative;
+}
+.kind::after
+{
+    position: absolute;
+    background:transparent;
+    border-color: #FF9F0D;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 40px;
+    text-align: center;
+    color: #FF9F0D;
+    text-align: center;
+    padding: 20px 45px 20px 45px;
+    transform: scale(0);
+    top: -10px;
+    right: -15px;
+}       
+.kind:hover:after
+{
+content: "";
+transform: scale(1);
+transition: ease-out 0.3s;
+}
+.NavLink
+{
+    text-decoration: none;
+    color: #FF9F0D;
+}
+@media only screen and (max-width: 767px) {
+    .kinds
+    {
+        display: none;
+    }
+  }

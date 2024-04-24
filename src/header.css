@@ -1,0 +1,147 @@
+body
+{
+    background-color: #0d0d0d;
+}
+.header
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 29px;
+color: white;
+}
+.tuck
+{
+    color: #FF9F0D;
+}
+.options
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+
+}
+.pp
+{
+color: white;
+width:45px ;
+height:24px ;
+font-size: 14px;
+margin-right: 10px;
+position: relative;
+cursor: pointer;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+.NavLink {
+    text-decoration: none;  
+}
+.pp:after
+{
+content: "";    
+background-color: #FF9F0D;
+width:10px;
+height: 10px;
+border-radius: 50%;
+position: absolute;
+left:13px ;
+bottom: -10px;
+transform: scale(0);
+}
+.pp:hover:after
+{
+transform: scale(1);
+transition: ease-out 0.3s;
+}
+.headin
+{
+width: 310px;
+height: 54px;
+border-radius: 27px;
+border-color: #FF9F0D;
+border-width: 2px;
+border-style: solid;
+background-color: black;
+color: white;
+position: relative;
+outline: none;
+}
+.head
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:200px ;
+}
+.search
+{
+position: absolute;
+right: 55px;
+top: 60px;
+}
+.right
+{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.showop
+{
+display: flex;
+flex-direction: column;
+gap: 0px;
+align-items: start;
+background-color: white;
+color: black;
+position: absolute;
+top: 100px;
+border: none;
+border-radius: 10px;
+width: 250px;
+}
+.each
+{
+color: black;
+border-bottom: #0d0d0d 0.5px solid;
+transition: ease-out 0.3s;
+width:250px;
+height:100%;
+padding: 2px;
+cursor: pointer;
+text-decoration: none;
+}
+.each:hover
+{
+background-color: grey;
+color: white;
+}
+@media only screen and (max-width: 767px) {
+    .right
+    {
+        transform: scale(0);
+    }
+    .header
+    {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        margin-left: 130px;
+        width: 12px;
+    }
+    .pp
+    {
+color: white;
+width:35px ;
+height:24px ;
+font-size: 12px;
+margin-right: 6px;
+position: relative;
+cursor: pointer;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+    }
+}

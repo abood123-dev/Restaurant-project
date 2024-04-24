@@ -1,0 +1,169 @@
+
+.intro
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 160px;
+align-items: center;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+.hmt
+{
+display: flex;
+flex-direction: row;
+gap: 60px;
+}
+.ftt
+{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: bold;
+}
+.tuckk
+{
+    color:  #FF9F0D;
+}
+.hom
+{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+width: 40px;
+position: relative;
+cursor: pointer;
+}
+.hos
+{
+color: #FF9F0D;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+width: 40px;
+
+}
+.iii
+{
+    display: flex;
+    flex-direction: row;
+    gap:5px ;
+}
+.chery
+{
+    width: 100%;
+    position:relative ;
+    background: transparent;
+}
+.omm
+{
+    position: absolute;
+    left: 540px;
+    top: 110px;
+}
+.men
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+.hom:after
+{
+content: "";    
+background-color: #FF9F0D;
+width:10px;
+height: 10px;
+border-radius: 50%;
+position: absolute;
+left:13px ;
+bottom: -10px;
+transform: scale(0);
+}
+.hom:hover:after
+{
+transform: scale(1);
+transition: ease-out 0.3s;
+}
+.NavLink
+{
+text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+   
+    .iii
+    {
+    margin-left: -105px;
+    }
+    .intro
+    {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 0px;
+     align-items: center;
+    }
+   .hmt
+   {
+     display: flex;
+     flex-direction: row;
+     padding-left: 92px;
+     font-size: 8px;
+    }
+    .ftt
+    {
+        display: none;
+    }
+    body
+    {
+        width: 600px;
+    }
+   
+    .i2
+    {
+        display: none;
+    }
+    .hom
+    {
+    color: white;
+    font-size: 2px;
+    width: 2px;
+    cursor: pointer;
+    margin-left: -40px;
+   }
+   .hos
+  {
+   color: #FF9F0D;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2px;
+   width: 2px;
+   margin-left: -40px;
+  }
+  .chery
+  {
+      width: 600px;
+      height: 200px;
+      position: relative;
+  }
+  .omm
+  {
+    position: absolute;
+    left: 4px;
+    top: 110px;
+   }
+   .men
+   {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2px;
+    width: 300px;
+    margin-left: -300px;
+    margin-top: 10px;
+   } 
+    
+
+}
